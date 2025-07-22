@@ -12,7 +12,7 @@ export const HERO_CONTENT = {
   description:
     "I enjoy solving complex problems and creating intuitive user experiences. I work with Java, Python, JavaScript, TypeScript, and modern frameworks like React, Angular, and Spring Boot.",
   resumeLinkText: "View CV",
-  resumeLink: "https://www.abhrajoyti.me/resources/Abhrajyoti_cv.pdf",
+  resumeLink: "/Abhrajyoti_cv.pdf",
 };
 export const PROJECTS = [
   {
