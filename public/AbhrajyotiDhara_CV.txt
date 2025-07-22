@@ -1,0 +1,69 @@
+Abhrajyoti Dhara
+Software Developer @ Sernion | Ex-Intern @ Euphoria GNX
+abhrajoytidhara2@gmail.com | LinkedIn: linkedin.com/in/abhra92/ | GitHub: github.com/abhra92 | Portfolio: abhrajoyti.me
+
+ABOUT ME
+I am a passionate software developer with experience in building web applications using modern technologies. I enjoy solving complex problems and creating intuitive user experiences.
+
+SKILLS
+Programming Languages: Java, Python, JavaScript, TypeScript, C, HTML/CSS, SQL
+Frameworks & Libraries: Spring Boot, Angular, Bootstrap, Tailwind CSS, React, Framer Motion
+Tools & Platforms: Docker, Git/GitLab, Netlify, GCP, Jenkins, IntelliJ IDEA, Vercel, VS Code, GitHub Copilot, Postman
+
+EXPERIENCE
+Software Developer - Sernion (Present)
+● Developing and maintaining web applications using modern technologies
+● Working with cross-functional teams to deliver high-quality software solutions
+● Implementing best practices for code quality and performance optimization
+● Contributing to the full software development lifecycle from planning to deployment
+
+Software Developer Intern - Euphoria GNX (Previous)
+● Gained hands-on experience in web development and software engineering
+● Worked on real-world projects using various programming languages and frameworks
+● Collaborated with senior developers to learn industry best practices
+● Contributed to the development of user-friendly web applications
+
+PROJECTS
+Netflix Clone
+Technologies: React, CSS, JavaScript
+● A responsive Netflix UI clone built using React & deployed on Netlify
+● Demo: https://netliflix2025.netlify.app/
+● Code: https://github.com/abhra92/Netflix-Clone
+
+Portfolio Website
+Technologies: HTML, CSS, W3.CSS
+● A personal portfolio built with HTML, CSS, and W3.CSS to showcase projects and skills
+● Demo: https://portfolio-w3-nine.vercel.app/
+● Code: https://github.com/abhra92/portfolio-w3
+
+Number Guessing Game
+Technologies: JavaScript, HTML, CSS
+● A fun JavaScript-based number guessing game with random number logic
+● Demo: https://number-guesing-game02.netlify.app/
+● Code: https://github.com/abhra92/Number-Guessing-Project
+
+Responsive Chips Website
+Technologies: HTML, CSS, JavaScript
+● A clean and responsive snack brand website built with HTML, CSS, and JS
+● Demo: https://bca-chips.netlify.app/
+● Code: https://github.com/abhra92/Responsive-chips-website
+
+Christmas Landing Page
+Technologies: HTML, CSS, JavaScript
+● A beautifully styled responsive landing page for the Christmas season
+● Demo: https://christmas2025-landing-page.netlify.app/
+● Code: https://github.com/abhra92/Christmas-landing-page
+
+3D Temple
+Technologies: Three.js, WebGL, JavaScript
+● A 3D interactive temple scene built with Three.js and WebGL
+● Demo: https://3d-temple.netlify.app/
+● Code: https://github.com/abhra92/3D-temple
+
+ADDITIONAL LINKS
+LeetCode: https://leetcode.com/u/abhratech/
+HackerRank: https://www.hackerrank.com/profile/abhrajoytidhara2
+X (Twitter): https://x.com/_abHra_
+Instagram: https://www.instagram.com/abhratech_nexus/
+
+© 2025 Abhrajyoti Dhara
