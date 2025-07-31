@@ -26,7 +26,7 @@ const itemVariant = {
 
 const SpotifyPlaylist = () => {
   return (
-    <section id="spotify" className="py-20 px-6 relative">
+    <section id="spotify" className="py-20 px-6 relative bg-gradient-to-b from-green-900/10 to-transparent">
       <motion.div
         className="max-w-4xl mx-auto"
         initial="hidden"
@@ -34,7 +34,10 @@ const SpotifyPlaylist = () => {
         viewport={{ once: true, amount: 0.2 }}
         variants={containerVariant}
       >
-        <h2 className="text-4xl font-bold mb-8 text-center">
+        <h2 className="text-4xl font-bold mb-8 text-center relative inline-block">
+          <span className="absolute -top-5 -right-12 bg-green-500 text-xs font-bold py-1 px-2 rounded-md transform rotate-12 animate-pulse">
+            NEW!
+          </span>
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-green-600">
             My Music Collection
           </span>

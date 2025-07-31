@@ -6,11 +6,13 @@ import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import SpotifyPlaylist from "./components/SpotifyPlaylist";
 import Contact from "./components/Contact";
+import Announcement from "./components/Announcement";
 
 const App = () => {
   return (
     <div className="min-h-screen bg-black text-white">
       <Navbar />
+      <Announcement />
       <main className="antialiased overflow-x-hidden max-w-6xl mx-auto relative z-10">
         <Home />
         <Projects />

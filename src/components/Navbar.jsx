@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { LINKS } from '../constants'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { FaSpotify } from 'react-icons/fa'
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -29,10 +30,18 @@ const Navbar = () => {
                         <a 
                             key={index} 
                             href={link.href} 
-                            className='text-white hover:text-stone-400 transition duration-300'
+                            className={`text-white hover:text-stone-400 transition duration-300 flex items-center ${link.isNew ? 'relative' : ''}`}
                             onClick={(e) => handleClick(e, link.href)}
                         >
+                            {link.icon === 'spotify' && (
+                                <FaSpotify className="mr-1 text-green-400" />
+                            )}
                             {link.label}
+                            {link.isNew && (
+                                <span className="absolute -top-2 -right-6 px-1.5 py-0.5 bg-green-500 text-xs font-bold rounded-full animate-pulse">
+                                    NEW
+                                </span>
+                            )}
                         </a>
                     ))}
                 </div>
@@ -56,10 +65,18 @@ const Navbar = () => {
                             <a 
                                 key={index} 
                                 href={link.href} 
-                                className='text-white hover:text-stone-400 transition duration-300 text-xl py-2'
+                                className='text-white hover:text-stone-400 transition duration-300 text-xl py-2 flex items-center relative'
                                 onClick={(e) => handleClick(e, link.href)}
                             >
+                                {link.icon === 'spotify' && (
+                                    <FaSpotify className="mr-2 text-green-400" />
+                                )}
                                 {link.label}
+                                {link.isNew && (
+                                    <span className="absolute -top-2 -right-8 px-1.5 py-0.5 bg-green-500 text-xs font-bold rounded-full animate-pulse">
+                                        NEW
+                                    </span>
+                                )}
                             </a>
                         ))}
                     </div>
