@@ -3,6 +3,7 @@ export const LINKS = [
   { href: "#projects", label: "Projects" },
   { href: "#skills", label: "Skills" },
   { href: "#experience", label: "Experience" },
+  { href: "#spotify", label: "My Music" },
   { href: "#contact", label: "Contact" }
 ];
 
